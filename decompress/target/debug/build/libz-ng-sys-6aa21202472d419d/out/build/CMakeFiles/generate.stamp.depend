@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.29/Templates/CPackConfig.cmake.in
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/CMakeLists.txt
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/cmake/detect-arch.cmake
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/cmake/detect-coverage.cmake
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/cmake/detect-install-dirs.cmake
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/cmake/detect-intrinsics.cmake
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/cmake/detect-sanitizer.cmake
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/cmake/fallback-macros.cmake
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/gzread.c.in
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/zlib-ng.h.in
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/zlib.pc.cmakein
+C:/Users/Nihad/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libz-ng-sys-1.1.15/src/zlib-ng/zlib_name_mangling.h.empty
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/CMakeFiles/3.29.3/CMakeCCompiler.cmake
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/CMakeFiles/3.29.3/CMakeRCCompiler.cmake
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/CMakeFiles/3.29.3/CMakeSystem.cmake
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/zconf-ng.h.cmakein

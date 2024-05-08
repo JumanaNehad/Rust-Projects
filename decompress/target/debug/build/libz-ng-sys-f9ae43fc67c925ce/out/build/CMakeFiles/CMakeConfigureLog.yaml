@@ -1,0 +1,1792 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:35 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:35 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 5/9/2024 12:48:01 AM.
+      Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:04.04
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:35 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ngthud"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ngthud"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ngthud'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_19875.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:07 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngthud\\cmTC_19875.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_19875.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngthud\\Debug\\".
+          Creating directory "cmTC_19875.dir\\Debug\\cmTC_19875.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_19875.dir\\Debug\\cmTC_19875.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_19875.dir\\Debug\\\\" /Fd"cmTC_19875.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngthud\\Debug\\cmTC_19875.exe" /INCREMENTAL /ILK:"cmTC_19875.dir\\Debug\\cmTC_19875.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ngthud/Debug/cmTC_19875.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ngthud/Debug/cmTC_19875.lib" /MACHINE:X64  /machine:x64 cmTC_19875.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_19875.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngthud\\Debug\\cmTC_19875.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_19875.dir\\Debug\\cmTC_19875.tlog\\unsuccessfulbuild".
+          Touching "cmTC_19875.dir\\Debug\\cmTC_19875.tlog\\cmTC_19875.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ngthud\\cmTC_19875.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.33
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:35 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:35 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.30.30705/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.30.30706.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:315 (check_include_file)"
+    checks:
+      - "Looking for arm_acle.h"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-lhvu19"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-lhvu19"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ARM_ACLE_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-lhvu19'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_54ccc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:10 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\cmTC_54ccc.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_54ccc.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\Debug\\".
+          Creating directory "cmTC_54ccc.dir\\Debug\\cmTC_54ccc.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_54ccc.dir\\Debug\\cmTC_54ccc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_54ccc.dir\\Debug\\\\" /Fd"cmTC_54ccc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'arm_acle.h': No such file or directory [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\cmTC_54ccc.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\cmTC_54ccc.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\cmTC_54ccc.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'arm_acle.h': No such file or directory [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lhvu19\\cmTC_54ccc.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.02
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:319 (check_include_file)"
+    checks:
+      - "Looking for sys/auxv.h"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-mlf3wp"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-mlf3wp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_AUXV_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-mlf3wp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0e6af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:11 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\cmTC_0e6af.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0e6af.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\Debug\\".
+          Creating directory "cmTC_0e6af.dir\\Debug\\cmTC_0e6af.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0e6af.dir\\Debug\\cmTC_0e6af.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_0e6af.dir\\Debug\\\\" /Fd"cmTC_0e6af.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'sys/auxv.h': No such file or directory [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\cmTC_0e6af.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\cmTC_0e6af.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\cmTC_0e6af.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'sys/auxv.h': No such file or directory [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mlf3wp\\cmTC_0e6af.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.02
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:323 (check_include_file)"
+    checks:
+      - "Looking for sys/sdt.h"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-syoyyv"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-syoyyv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_SDT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-syoyyv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_de95b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:13 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\cmTC_de95b.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_de95b.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\Debug\\".
+          Creating directory "cmTC_de95b.dir\\Debug\\cmTC_de95b.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_de95b.dir\\Debug\\cmTC_de95b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_de95b.dir\\Debug\\\\" /Fd"cmTC_de95b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'sys/sdt.h': No such file or directory [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\cmTC_de95b.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\cmTC_de95b.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\cmTC_de95b.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'sys/sdt.h': No such file or directory [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-syoyyv\\cmTC_de95b.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.97
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:327 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ghdx2v"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ghdx2v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ghdx2v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5eb7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:14 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\cmTC_5eb7f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5eb7f.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\Debug\\".
+          Creating directory "cmTC_5eb7f.dir\\Debug\\cmTC_5eb7f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5eb7f.dir\\Debug\\cmTC_5eb7f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_5eb7f.dir\\Debug\\\\" /Fd"cmTC_5eb7f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\cmTC_5eb7f.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\cmTC_5eb7f.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\cmTC_5eb7f.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\CheckIncludeFile.c(1,1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ghdx2v\\cmTC_5eb7f.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.00
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "CMakeLists.txt:333 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-9lx1j9"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-9lx1j9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-9lx1j9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9a4f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:16 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9lx1j9\\cmTC_9a4f8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9a4f8.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9lx1j9\\Debug\\".
+          Creating directory "cmTC_9a4f8.dir\\Debug\\cmTC_9a4f8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9a4f8.dir\\Debug\\cmTC_9a4f8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_9a4f8.dir\\Debug\\\\" /Fd"cmTC_9a4f8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9lx1j9\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9lx1j9\\Debug\\cmTC_9a4f8.exe" /INCREMENTAL /ILK:"cmTC_9a4f8.dir\\Debug\\cmTC_9a4f8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-9lx1j9/Debug/cmTC_9a4f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-9lx1j9/Debug/cmTC_9a4f8.lib" /MACHINE:X64  /machine:x64 cmTC_9a4f8.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_9a4f8.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9lx1j9\\Debug\\cmTC_9a4f8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9a4f8.dir\\Debug\\cmTC_9a4f8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9a4f8.dir\\Debug\\cmTC_9a4f8.tlog\\cmTC_9a4f8.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9lx1j9\\cmTC_9a4f8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "CMakeLists.txt:333 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-s7kjb2"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-s7kjb2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-s7kjb2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fa527.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:17 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7kjb2\\cmTC_fa527.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fa527.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7kjb2\\Debug\\".
+          Creating directory "cmTC_fa527.dir\\Debug\\cmTC_fa527.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fa527.dir\\Debug\\cmTC_fa527.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_fa527.dir\\Debug\\\\" /Fd"cmTC_fa527.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7kjb2\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7kjb2\\Debug\\cmTC_fa527.exe" /INCREMENTAL /ILK:"cmTC_fa527.dir\\Debug\\cmTC_fa527.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-s7kjb2/Debug/cmTC_fa527.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-s7kjb2/Debug/cmTC_fa527.lib" /MACHINE:X64  /machine:x64 cmTC_fa527.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_fa527.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7kjb2\\Debug\\cmTC_fa527.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_fa527.dir\\Debug\\cmTC_fa527.tlog\\unsuccessfulbuild".
+          Touching "cmTC_fa527.dir\\Debug\\cmTC_fa527.tlog\\cmTC_fa527.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s7kjb2\\cmTC_fa527.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "CMakeLists.txt:333 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-j96ofr"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-j96ofr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-j96ofr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6ce5f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:19 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j96ofr\\cmTC_6ce5f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6ce5f.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j96ofr\\Debug\\".
+          Creating directory "cmTC_6ce5f.dir\\Debug\\cmTC_6ce5f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6ce5f.dir\\Debug\\cmTC_6ce5f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_6ce5f.dir\\Debug\\\\" /Fd"cmTC_6ce5f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j96ofr\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j96ofr\\Debug\\cmTC_6ce5f.exe" /INCREMENTAL /ILK:"cmTC_6ce5f.dir\\Debug\\cmTC_6ce5f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-j96ofr/Debug/cmTC_6ce5f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-j96ofr/Debug/cmTC_6ce5f.lib" /MACHINE:X64  /machine:x64 cmTC_6ce5f.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_6ce5f.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j96ofr\\Debug\\cmTC_6ce5f.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6ce5f.dir\\Debug\\cmTC_6ce5f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6ce5f.dir\\Debug\\cmTC_6ce5f.tlog\\cmTC_6ce5f.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j96ofr\\cmTC_6ce5f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:333 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-4l5qrd"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-4l5qrd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-4l5qrd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_76aba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:21 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_76aba.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\Debug\\".
+          Creating directory "cmTC_76aba.dir\\Debug\\cmTC_76aba.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_76aba.dir\\Debug\\cmTC_76aba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_76aba.dir\\Debug\\\\" /Fd"cmTC_76aba.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c"
+          OFF64_T.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4l5qrd\\cmTC_76aba.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:00.99
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:337 (check_type_size)"
+    checks:
+      - "Check size of _off64_t"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-gsxthd"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-gsxthd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE__OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-gsxthd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d9d66.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:22 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d9d66.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\Debug\\".
+          Creating directory "cmTC_d9d66.dir\\Debug\\cmTC_d9d66.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d9d66.dir\\Debug\\cmTC_d9d66.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_d9d66.dir\\Debug\\\\" /Fd"cmTC_d9d66.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c"
+          _OFF64_T.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(29,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(30,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(31,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(32,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(33,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(29,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(30,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(31,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(32,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\_OFF64_T.c(33,12): error C2065: '_off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gsxthd\\cmTC_d9d66.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:01.03
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:341 (check_type_size)"
+    checks:
+      - "Check size of __off64_t"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ommi8a"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ommi8a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE___OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ommi8a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_78c17.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:24 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_78c17.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\Debug\\".
+          Creating directory "cmTC_78c17.dir\\Debug\\cmTC_78c17.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_78c17.dir\\Debug\\cmTC_78c17.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_78c17.dir\\Debug\\\\" /Fd"cmTC_78c17.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c"
+          __OFF64_T.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(29,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(30,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(31,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(32,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(33,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(29,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(30,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(31,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(32,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\__OFF64_T.c(33,12): error C2065: '__off64_t': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ommi8a\\cmTC_78c17.vcxproj]
+        
+            0 Warning(s)
+            5 Error(s)
+        
+        Time Elapsed 00:00:01.13
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:349 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-5ouiwy"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-5ouiwy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-5ouiwy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1f395.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:26 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\cmTC_1f395.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_1f395.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\Debug\\".
+          Creating directory "cmTC_1f395.dir\\Debug\\cmTC_1f395.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_1f395.dir\\Debug\\cmTC_1f395.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_1f395.dir\\Debug\\\\" /Fd"cmTC_1f395.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\Debug\\cmTC_1f395.exe" /INCREMENTAL /ILK:"cmTC_1f395.dir\\Debug\\cmTC_1f395.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-5ouiwy/Debug/cmTC_1f395.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-5ouiwy/Debug/cmTC_1f395.lib" /MACHINE:X64  /machine:x64 cmTC_1f395.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\cmTC_1f395.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\Debug\\cmTC_1f395.exe : fatal error LNK1120: 1 unresolved externals [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\cmTC_1f395.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\cmTC_1f395.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\cmTC_1f395.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\cmTC_1f395.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\Debug\\cmTC_1f395.exe : fatal error LNK1120: 1 unresolved externals [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ouiwy\\cmTC_1f395.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:01.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:354 (check_function_exists)"
+    checks:
+      - "Looking for strerror"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-uhl3gl"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-uhl3gl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_STRERROR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-uhl3gl'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_15543.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:28 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhl3gl\\cmTC_15543.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_15543.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhl3gl\\Debug\\".
+          Creating directory "cmTC_15543.dir\\Debug\\cmTC_15543.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_15543.dir\\Debug\\cmTC_15543.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D CHECK_FUNCTION_EXISTS=strerror /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_15543.dir\\Debug\\\\" /Fd"cmTC_15543.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhl3gl\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhl3gl\\Debug\\cmTC_15543.exe" /INCREMENTAL /ILK:"cmTC_15543.dir\\Debug\\cmTC_15543.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-uhl3gl/Debug/cmTC_15543.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-uhl3gl/Debug/cmTC_15543.lib" /MACHINE:X64  /machine:x64 cmTC_15543.dir\\Debug\\CheckFunctionExists.obj
+          cmTC_15543.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhl3gl\\Debug\\cmTC_15543.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_15543.dir\\Debug\\cmTC_15543.tlog\\unsuccessfulbuild".
+          Touching "cmTC_15543.dir\\Debug\\cmTC_15543.tlog\\cmTC_15543.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uhl3gl\\cmTC_15543.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:360 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ahl6lx"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ahl6lx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ahl6lx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_31f0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:31 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\cmTC_31f0c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_31f0c.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\Debug\\".
+          Creating directory "cmTC_31f0c.dir\\Debug\\cmTC_31f0c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_31f0c.dir\\Debug\\cmTC_31f0c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D _POSIX_C_SOURCE=200112L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_31f0c.dir\\Debug\\\\" /Fd"cmTC_31f0c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\CheckSymbolExists.c(8,33): error C2065: 'posix_memalign': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\cmTC_31f0c.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\cmTC_31f0c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\cmTC_31f0c.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\CheckSymbolExists.c(8,33): error C2065: 'posix_memalign': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ahl6lx\\cmTC_31f0c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:367 (check_symbol_exists)"
+    checks:
+      - "Looking for aligned_alloc"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-mfh58l"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-mfh58l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ALIGNED_ALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-mfh58l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bfeab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:33 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\cmTC_bfeab.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bfeab.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\Debug\\".
+          Creating directory "cmTC_bfeab.dir\\Debug\\cmTC_bfeab.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bfeab.dir\\Debug\\cmTC_bfeab.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D _ISOC11_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bfeab.dir\\Debug\\\\" /Fd"cmTC_bfeab.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\CheckSymbolExists.c(8,32): error C2065: 'aligned_alloc': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\cmTC_bfeab.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\cmTC_bfeab.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\cmTC_bfeab.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\CheckSymbolExists.c(8,32): error C2065: 'aligned_alloc': undeclared identifier [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mfh58l\\cmTC_bfeab.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.43
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:386 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_NO_INTERPOSITION"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-7gdako"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-7gdako"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_NO_INTERPOSITION"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-7gdako'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2eb78.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:35 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\cmTC_2eb78.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2eb78.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\Debug\\".
+          Creating directory "cmTC_2eb78.dir\\Debug\\cmTC_2eb78.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2eb78.dir\\Debug\\cmTC_2eb78.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_NO_INTERPOSITION /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2eb78.dir\\Debug\\\\" /Fd"cmTC_2eb78.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro -fno-semantic-interposition "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\src.c"
+        cl : command line warning D9002: ignoring unknown option '-fno-semantic-interposition' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\cmTC_2eb78.vcxproj]
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\Debug\\cmTC_2eb78.exe" /INCREMENTAL /ILK:"cmTC_2eb78.dir\\Debug\\cmTC_2eb78.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-7gdako/Debug/cmTC_2eb78.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-7gdako/Debug/cmTC_2eb78.lib" /MACHINE:X64  /machine:x64 cmTC_2eb78.dir\\Debug\\src.obj
+          cmTC_2eb78.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\Debug\\cmTC_2eb78.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2eb78.dir\\Debug\\cmTC_2eb78.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2eb78.dir\\Debug\\cmTC_2eb78.tlog\\cmTC_2eb78.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\cmTC_2eb78.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\cmTC_2eb78.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          cl : command line warning D9002: ignoring unknown option '-fno-semantic-interposition' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gdako\\cmTC_2eb78.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.54
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:391 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-dc4mgg"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-dc4mgg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_VISIBILITY_HIDDEN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-dc4mgg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ad8ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:37 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ad8ce.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\Debug\\".
+          Creating directory "cmTC_ad8ce.dir\\Debug\\cmTC_ad8ce.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ad8ce.dir\\Debug\\cmTC_ad8ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_ATTRIBUTE_VISIBILITY_HIDDEN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_ad8ce.dir\\Debug\\\\" /Fd"cmTC_ad8ce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c"
+          src.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2143: syntax error: missing ')' before '(' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2091: function returns function [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2143: syntax error: missing ')' before 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2143: syntax error: missing '{' before 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2059: syntax error: 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2059: syntax error: ')' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2143: syntax error: missing ')' before '(' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2091: function returns function [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2143: syntax error: missing ')' before 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2143: syntax error: missing '{' before 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2059: syntax error: 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\src.c(2,9): error C2059: syntax error: ')' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dc4mgg\\cmTC_ad8ce.vcxproj]
+        
+            0 Warning(s)
+            6 Error(s)
+        
+        Time Elapsed 00:00:01.07
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:405 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-wjepmx"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-wjepmx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_VISIBILITY_INTERNAL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-wjepmx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f7106.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:39 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f7106.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\Debug\\".
+          Creating directory "cmTC_f7106.dir\\Debug\\cmTC_f7106.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f7106.dir\\Debug\\cmTC_f7106.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_ATTRIBUTE_VISIBILITY_INTERNAL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f7106.dir\\Debug\\\\" /Fd"cmTC_f7106.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c"
+          src.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2143: syntax error: missing ')' before '(' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2091: function returns function [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2143: syntax error: missing ')' before 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2143: syntax error: missing '{' before 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2059: syntax error: 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2059: syntax error: ')' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2143: syntax error: missing ')' before '(' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2091: function returns function [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2143: syntax error: missing ')' before 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2143: syntax error: missing '{' before 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2059: syntax error: 'string' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\src.c(2,9): error C2059: syntax error: ')' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wjepmx\\cmTC_f7106.vcxproj]
+        
+            0 Warning(s)
+            6 Error(s)
+        
+        Time Elapsed 00:00:01.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:419 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ATTRIBUTE_ALIGNED"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-c8y7lw"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-c8y7lw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ATTRIBUTE_ALIGNED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-c8y7lw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_862f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:41 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\cmTC_862f6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_862f6.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\Debug\\".
+          Creating directory "cmTC_862f6.dir\\Debug\\cmTC_862f6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_862f6.dir\\Debug\\cmTC_862f6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_ATTRIBUTE_ALIGNED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_862f6.dir\\Debug\\\\" /Fd"cmTC_862f6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\src.c"
+          src.c
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\src.c(2,41): error C2143: syntax error: missing ';' before 'type' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\cmTC_862f6.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\cmTC_862f6.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\cmTC_862f6.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\src.c(2,41): error C2143: syntax error: missing ';' before 'type' [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8y7lw\\cmTC_862f6.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.10
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:433 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZ"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-kuotwb"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-kuotwb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZ"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-kuotwb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9de0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:43 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\cmTC_9de0d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9de0d.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\Debug\\".
+          Creating directory "cmTC_9de0d.dir\\Debug\\cmTC_9de0d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9de0d.dir\\Debug\\cmTC_9de0d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_BUILTIN_CTZ /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_9de0d.dir\\Debug\\\\" /Fd"cmTC_9de0d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\Debug\\cmTC_9de0d.exe" /INCREMENTAL /ILK:"cmTC_9de0d.dir\\Debug\\cmTC_9de0d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-kuotwb/Debug/cmTC_9de0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-kuotwb/Debug/cmTC_9de0d.lib" /MACHINE:X64  /machine:x64 cmTC_9de0d.dir\\Debug\\src.obj
+        src.obj : error LNK2019: unresolved external symbol __builtin_ctz referenced in function main [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\cmTC_9de0d.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\Debug\\cmTC_9de0d.exe : fatal error LNK1120: 1 unresolved externals [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\cmTC_9de0d.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\cmTC_9de0d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\cmTC_9de0d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          src.obj : error LNK2019: unresolved external symbol __builtin_ctz referenced in function main [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\cmTC_9de0d.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\Debug\\cmTC_9de0d.exe : fatal error LNK1120: 1 unresolved externals [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuotwb\\cmTC_9de0d.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:01.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:449 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZLL"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-85gvyb"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-85gvyb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZLL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-85gvyb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a2bd2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:44 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\cmTC_a2bd2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a2bd2.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\Debug\\".
+          Creating directory "cmTC_a2bd2.dir\\Debug\\cmTC_a2bd2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a2bd2.dir\\Debug\\cmTC_a2bd2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_BUILTIN_CTZLL /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_a2bd2.dir\\Debug\\\\" /Fd"cmTC_a2bd2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\Debug\\cmTC_a2bd2.exe" /INCREMENTAL /ILK:"cmTC_a2bd2.dir\\Debug\\cmTC_a2bd2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-85gvyb/Debug/cmTC_a2bd2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-85gvyb/Debug/cmTC_a2bd2.lib" /MACHINE:X64  /machine:x64 cmTC_a2bd2.dir\\Debug\\src.obj
+        src.obj : error LNK2019: unresolved external symbol __builtin_ctzll referenced in function main [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\cmTC_a2bd2.vcxproj]
+        D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\Debug\\cmTC_a2bd2.exe : fatal error LNK1120: 1 unresolved externals [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\cmTC_a2bd2.vcxproj]
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\cmTC_a2bd2.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\cmTC_a2bd2.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          src.obj : error LNK2019: unresolved external symbol __builtin_ctzll referenced in function main [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\cmTC_a2bd2.vcxproj]
+          D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\Debug\\cmTC_a2bd2.exe : fatal error LNK1120: 1 unresolved externals [D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-85gvyb\\cmTC_a2bd2.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:01.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:465 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_PTRDIFF_T"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-xksaym"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-xksaym"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_PTRDIFF_T"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-xksaym'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5ff0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:46 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xksaym\\cmTC_5ff0d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_5ff0d.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xksaym\\Debug\\".
+          Creating directory "cmTC_5ff0d.dir\\Debug\\cmTC_5ff0d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5ff0d.dir\\Debug\\cmTC_5ff0d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_PTRDIFF_T /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_5ff0d.dir\\Debug\\\\" /Fd"cmTC_5ff0d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xksaym\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xksaym\\Debug\\cmTC_5ff0d.exe" /INCREMENTAL /ILK:"cmTC_5ff0d.dir\\Debug\\cmTC_5ff0d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-xksaym/Debug/cmTC_5ff0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-xksaym/Debug/cmTC_5ff0d.lib" /MACHINE:X64  /machine:x64 cmTC_5ff0d.dir\\Debug\\src.obj
+          cmTC_5ff0d.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xksaym\\Debug\\cmTC_5ff0d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_5ff0d.dir\\Debug\\cmTC_5ff0d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_5ff0d.dir\\Debug\\cmTC_5ff0d.tlog\\cmTC_5ff0d.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xksaym\\cmTC_5ff0d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:177 (check_c_source_compiles)"
+      - "CMakeLists.txt:788 (check_avx2_intrinsics)"
+    checks:
+      - "Performing Test HAVE_AVX2_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-wiohq1"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-wiohq1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_AVX2_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-wiohq1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_17d94.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:48 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wiohq1\\cmTC_17d94.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_17d94.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wiohq1\\Debug\\".
+          Creating directory "cmTC_17d94.dir\\Debug\\cmTC_17d94.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_17d94.dir\\Debug\\cmTC_17d94.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_AVX2_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_17d94.dir\\Debug\\\\" /Fd"cmTC_17d94.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wiohq1\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wiohq1\\Debug\\cmTC_17d94.exe" /INCREMENTAL /ILK:"cmTC_17d94.dir\\Debug\\cmTC_17d94.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-wiohq1/Debug/cmTC_17d94.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-wiohq1/Debug/cmTC_17d94.lib" /MACHINE:X64  /machine:x64 cmTC_17d94.dir\\Debug\\src.obj
+          cmTC_17d94.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wiohq1\\Debug\\cmTC_17d94.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_17d94.dir\\Debug\\cmTC_17d94.tlog\\unsuccessfulbuild".
+          Touching "cmTC_17d94.dir\\Debug\\cmTC_17d94.tlog\\cmTC_17d94.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wiohq1\\cmTC_17d94.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:103 (check_c_source_compiles)"
+      - "CMakeLists.txt:806 (check_avx512_intrinsics)"
+    checks:
+      - "Performing Test HAVE_AVX512_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-elm2t9"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-elm2t9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_AVX512_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-elm2t9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2fcc3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:50 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-elm2t9\\cmTC_2fcc3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2fcc3.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-elm2t9\\Debug\\".
+          Creating directory "cmTC_2fcc3.dir\\Debug\\cmTC_2fcc3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2fcc3.dir\\Debug\\cmTC_2fcc3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_AVX512_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /arch:AVX512 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2fcc3.dir\\Debug\\\\" /Fd"cmTC_2fcc3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-elm2t9\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-elm2t9\\Debug\\cmTC_2fcc3.exe" /INCREMENTAL /ILK:"cmTC_2fcc3.dir\\Debug\\cmTC_2fcc3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-elm2t9/Debug/cmTC_2fcc3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-elm2t9/Debug/cmTC_2fcc3.lib" /MACHINE:X64  /machine:x64 cmTC_2fcc3.dir\\Debug\\src.obj
+          cmTC_2fcc3.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-elm2t9\\Debug\\cmTC_2fcc3.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2fcc3.dir\\Debug\\cmTC_2fcc3.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2fcc3.dir\\Debug\\cmTC_2fcc3.tlog\\cmTC_2fcc3.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-elm2t9\\cmTC_2fcc3.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:114 (check_c_source_compiles)"
+      - "CMakeLists.txt:806 (check_avx512_intrinsics)"
+    checks:
+      - "Performing Test HAVE_MASK_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-qmrf4p"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-qmrf4p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_MASK_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-qmrf4p'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_51842.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:52 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qmrf4p\\cmTC_51842.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_51842.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qmrf4p\\Debug\\".
+          Creating directory "cmTC_51842.dir\\Debug\\cmTC_51842.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_51842.dir\\Debug\\cmTC_51842.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_MASK_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /arch:AVX512 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_51842.dir\\Debug\\\\" /Fd"cmTC_51842.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qmrf4p\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qmrf4p\\Debug\\cmTC_51842.exe" /INCREMENTAL /ILK:"cmTC_51842.dir\\Debug\\cmTC_51842.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-qmrf4p/Debug/cmTC_51842.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-qmrf4p/Debug/cmTC_51842.lib" /MACHINE:X64  /machine:x64 cmTC_51842.dir\\Debug\\src.obj
+          cmTC_51842.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qmrf4p\\Debug\\cmTC_51842.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_51842.dir\\Debug\\cmTC_51842.tlog\\unsuccessfulbuild".
+          Touching "cmTC_51842.dir\\Debug\\cmTC_51842.tlog\\cmTC_51842.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qmrf4p\\cmTC_51842.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.39
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:149 (check_c_source_compiles)"
+      - "CMakeLists.txt:822 (check_avx512vnni_intrinsics)"
+    checks:
+      - "Performing Test HAVE_AVX512VNNI_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-8nbpt6"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-8nbpt6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_AVX512VNNI_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-8nbpt6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46f02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:54 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8nbpt6\\cmTC_46f02.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_46f02.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8nbpt6\\Debug\\".
+          Creating directory "cmTC_46f02.dir\\Debug\\cmTC_46f02.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_46f02.dir\\Debug\\cmTC_46f02.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_AVX512VNNI_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /arch:AVX512 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_46f02.dir\\Debug\\\\" /Fd"cmTC_46f02.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8nbpt6\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8nbpt6\\Debug\\cmTC_46f02.exe" /INCREMENTAL /ILK:"cmTC_46f02.dir\\Debug\\cmTC_46f02.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-8nbpt6/Debug/cmTC_46f02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-8nbpt6/Debug/cmTC_46f02.lib" /MACHINE:X64  /machine:x64 cmTC_46f02.dir\\Debug\\src.obj
+          cmTC_46f02.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8nbpt6\\Debug\\cmTC_46f02.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_46f02.dir\\Debug\\cmTC_46f02.tlog\\unsuccessfulbuild".
+          Touching "cmTC_46f02.dir\\Debug\\cmTC_46f02.tlog\\cmTC_46f02.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8nbpt6\\cmTC_46f02.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.34
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:494 (check_c_source_compiles)"
+      - "CMakeLists.txt:834 (check_sse42_intrinsics)"
+    checks:
+      - "Performing Test HAVE_SSE42_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-pe2is8"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-pe2is8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SSE42_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-pe2is8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_68039.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:56 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe2is8\\cmTC_68039.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_68039.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe2is8\\Debug\\".
+          Creating directory "cmTC_68039.dir\\Debug\\cmTC_68039.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_68039.dir\\Debug\\cmTC_68039.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_SSE42_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_68039.dir\\Debug\\\\" /Fd"cmTC_68039.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe2is8\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe2is8\\Debug\\cmTC_68039.exe" /INCREMENTAL /ILK:"cmTC_68039.dir\\Debug\\cmTC_68039.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-pe2is8/Debug/cmTC_68039.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-pe2is8/Debug/cmTC_68039.lib" /MACHINE:X64  /machine:x64 cmTC_68039.dir\\Debug\\src.obj
+          cmTC_68039.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe2is8\\Debug\\cmTC_68039.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_68039.dir\\Debug\\cmTC_68039.tlog\\unsuccessfulbuild".
+          Touching "cmTC_68039.dir\\Debug\\cmTC_68039.tlog\\cmTC_68039.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pe2is8\\cmTC_68039.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.22
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:446 (check_c_source_compiles)"
+      - "CMakeLists.txt:846 (check_sse2_intrinsics)"
+    checks:
+      - "Performing Test HAVE_SSE2_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-1920u2"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-1920u2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SSE2_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-1920u2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3d9db.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:48:58 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1920u2\\cmTC_3d9db.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3d9db.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1920u2\\Debug\\".
+          Creating directory "cmTC_3d9db.dir\\Debug\\cmTC_3d9db.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3d9db.dir\\Debug\\cmTC_3d9db.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_SSE2_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_3d9db.dir\\Debug\\\\" /Fd"cmTC_3d9db.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1920u2\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1920u2\\Debug\\cmTC_3d9db.exe" /INCREMENTAL /ILK:"cmTC_3d9db.dir\\Debug\\cmTC_3d9db.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-1920u2/Debug/cmTC_3d9db.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-1920u2/Debug/cmTC_3d9db.lib" /MACHINE:X64  /machine:x64 cmTC_3d9db.dir\\Debug\\src.obj
+          cmTC_3d9db.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1920u2\\Debug\\cmTC_3d9db.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_3d9db.dir\\Debug\\cmTC_3d9db.tlog\\unsuccessfulbuild".
+          Touching "cmTC_3d9db.dir\\Debug\\cmTC_3d9db.tlog\\cmTC_3d9db.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1920u2\\cmTC_3d9db.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:469 (check_c_source_compiles)"
+      - "CMakeLists.txt:863 (check_ssse3_intrinsics)"
+    checks:
+      - "Performing Test HAVE_SSSE3_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-bxb3o6"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-bxb3o6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_SSSE3_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-bxb3o6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2eed9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:49:00 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxb3o6\\cmTC_2eed9.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_2eed9.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxb3o6\\Debug\\".
+          Creating directory "cmTC_2eed9.dir\\Debug\\cmTC_2eed9.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_2eed9.dir\\Debug\\cmTC_2eed9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_SSSE3_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_2eed9.dir\\Debug\\\\" /Fd"cmTC_2eed9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxb3o6\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxb3o6\\Debug\\cmTC_2eed9.exe" /INCREMENTAL /ILK:"cmTC_2eed9.dir\\Debug\\cmTC_2eed9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-bxb3o6/Debug/cmTC_2eed9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-bxb3o6/Debug/cmTC_2eed9.lib" /MACHINE:X64  /machine:x64 cmTC_2eed9.dir\\Debug\\src.obj
+          cmTC_2eed9.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxb3o6\\Debug\\cmTC_2eed9.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_2eed9.dir\\Debug\\cmTC_2eed9.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2eed9.dir\\Debug\\cmTC_2eed9.tlog\\cmTC_2eed9.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bxb3o6\\cmTC_2eed9.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:246 (check_c_source_compiles)"
+      - "CMakeLists.txt:875 (check_pclmulqdq_intrinsics)"
+    checks:
+      - "Performing Test HAVE_PCLMULQDQ_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ftf8pn"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ftf8pn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_PCLMULQDQ_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ftf8pn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_09625.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:49:01 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftf8pn\\cmTC_09625.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_09625.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftf8pn\\Debug\\".
+          Creating directory "cmTC_09625.dir\\Debug\\cmTC_09625.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_09625.dir\\Debug\\cmTC_09625.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_PCLMULQDQ_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_09625.dir\\Debug\\\\" /Fd"cmTC_09625.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftf8pn\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftf8pn\\Debug\\cmTC_09625.exe" /INCREMENTAL /ILK:"cmTC_09625.dir\\Debug\\cmTC_09625.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ftf8pn/Debug/cmTC_09625.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-ftf8pn/Debug/cmTC_09625.lib" /MACHINE:X64  /machine:x64 cmTC_09625.dir\\Debug\\src.obj
+          cmTC_09625.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftf8pn\\Debug\\cmTC_09625.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_09625.dir\\Debug\\cmTC_09625.tlog\\unsuccessfulbuild".
+          Touching "cmTC_09625.dir\\Debug\\cmTC_09625.tlog\\cmTC_09625.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ftf8pn\\cmTC_09625.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.30
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:268 (check_c_source_compiles)"
+      - "CMakeLists.txt:884 (check_vpclmulqdq_intrinsics)"
+    checks:
+      - "Performing Test HAVE_VPCLMULQDQ_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-t4yxyv"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-t4yxyv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_VPCLMULQDQ_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-t4yxyv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e3c77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:49:03 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4yxyv\\cmTC_e3c77.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e3c77.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4yxyv\\Debug\\".
+          Creating directory "cmTC_e3c77.dir\\Debug\\cmTC_e3c77.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e3c77.dir\\Debug\\cmTC_e3c77.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_VPCLMULQDQ_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_e3c77.dir\\Debug\\\\" /Fd"cmTC_e3c77.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4yxyv\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4yxyv\\Debug\\cmTC_e3c77.exe" /INCREMENTAL /ILK:"cmTC_e3c77.dir\\Debug\\cmTC_e3c77.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-t4yxyv/Debug/cmTC_e3c77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-t4yxyv/Debug/cmTC_e3c77.lib" /MACHINE:X64  /machine:x64 cmTC_e3c77.dir\\Debug\\src.obj
+          cmTC_e3c77.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4yxyv\\Debug\\cmTC_e3c77.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e3c77.dir\\Debug\\cmTC_e3c77.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e3c77.dir\\Debug\\cmTC_e3c77.tlog\\cmTC_e3c77.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4yxyv\\cmTC_e3c77.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/detect-intrinsics.cmake:533 (check_c_source_compiles)"
+      - "CMakeLists.txt:905 (check_xsave_intrinsics)"
+    checks:
+      - "Performing Test HAVE_XSAVE_INTRIN"
+    directories:
+      source: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-njq1a4"
+      binary: "D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-njq1a4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_XSAVE_INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-njq1a4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_894c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 5/9/2024 12:49:06 AM.
+        Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njq1a4\\cmTC_894c6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_894c6.dir\\Debug\\".
+          Creating directory "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njq1a4\\Debug\\".
+          Creating directory "cmTC_894c6.dir\\Debug\\cmTC_894c6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_894c6.dir\\Debug\\cmTC_894c6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /O2 /D _MBCS /D HAVE_XSAVE_INTRIN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_894c6.dir\\Debug\\\\" /Fd"cmTC_894c6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njq1a4\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.30.30705\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njq1a4\\Debug\\cmTC_894c6.exe" /INCREMENTAL /ILK:"cmTC_894c6.dir\\Debug\\cmTC_894c6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-njq1a4/Debug/cmTC_894c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-f9ae43fc67c925ce/out/build/CMakeFiles/CMakeScratch/TryCompile-njq1a4/Debug/cmTC_894c6.lib" /MACHINE:X64  /machine:x64 cmTC_894c6.dir\\Debug\\src.obj
+          cmTC_894c6.vcxproj -> D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njq1a4\\Debug\\cmTC_894c6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_894c6.dir\\Debug\\cmTC_894c6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_894c6.dir\\Debug\\cmTC_894c6.tlog\\cmTC_894c6.lastbuildstate".
+        Done Building Project "D:\\Rust\\Rust-Projects\\decompress\\target\\debug\\build\\libz-ng-sys-f9ae43fc67c925ce\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-njq1a4\\cmTC_894c6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.28
+        
+      exitCode: 0
+...

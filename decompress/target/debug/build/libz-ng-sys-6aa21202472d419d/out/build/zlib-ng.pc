@@ -1,0 +1,14 @@
+prefix=D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out
+exec_prefix=${prefix}
+symbol_prefix=
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib-ng
+Description: zlib-ng compression library
+Version: 2.1.6
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz-ng
+Cflags: -I${includedir} -DWITH_GZFILEOP

@@ -1,0 +1,11 @@
+D:\Rust\Rust-Projects\decompress\target\debug\deps\liblibc-5672dc8f5c8ece50.rmeta: C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\lib.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\macros.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\fixed_width_ints.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\windows\mod.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\windows\msvc\mod.rs
+
+D:\Rust\Rust-Projects\decompress\target\debug\deps\liblibc-5672dc8f5c8ece50.rlib: C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\lib.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\macros.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\fixed_width_ints.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\windows\mod.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\windows\msvc\mod.rs
+
+D:\Rust\Rust-Projects\decompress\target\debug\deps\libc-5672dc8f5c8ece50.d: C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\lib.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\macros.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\fixed_width_ints.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\windows\mod.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\windows\msvc\mod.rs
+
+C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\lib.rs:
+C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\macros.rs:
+C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\fixed_width_ints.rs:
+C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\windows\mod.rs:
+C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\libc-0.2.154\src\windows\msvc\mod.rs:

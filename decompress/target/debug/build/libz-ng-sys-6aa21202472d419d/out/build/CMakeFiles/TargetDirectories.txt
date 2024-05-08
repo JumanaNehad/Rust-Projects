@@ -1,0 +1,5 @@
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/CMakeFiles/zlib.dir
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/CMakeFiles/PACKAGE.dir
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/CMakeFiles/INSTALL.dir
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/CMakeFiles/ALL_BUILD.dir
+D:/Rust/Rust-Projects/decompress/target/debug/build/libz-ng-sys-6aa21202472d419d/out/build/CMakeFiles/ZERO_CHECK.dir

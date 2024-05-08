@@ -1,0 +1,9 @@
+D:\Rust\Rust-Projects\decompress\target\debug\deps\libtime_core-19262a701b788cae.rmeta: C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\lib.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\convert.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\util.rs
+
+D:\Rust\Rust-Projects\decompress\target\debug\deps\libtime_core-19262a701b788cae.rlib: C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\lib.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\convert.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\util.rs
+
+D:\Rust\Rust-Projects\decompress\target\debug\deps\time_core-19262a701b788cae.d: C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\lib.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\convert.rs C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\util.rs
+
+C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\lib.rs:
+C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\convert.rs:
+C:\Users\Nihad\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-core-0.1.2\src\util.rs:
