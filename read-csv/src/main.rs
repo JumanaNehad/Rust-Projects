@@ -1,3 +1,5 @@
+//to run : cargo run
+//have to put the csv file we want
 #![deny(clippy::all)]
 use csv::Reader;
 use std::error::Error;
