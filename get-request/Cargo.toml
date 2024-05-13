@@ -1,0 +1,10 @@
+[package]
+name = "get-request"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#will give us the ability to work with request and response
+reqwest = { version = "0.11", features = ["blocking"] }
+tokio = { version = "1", features = ["full"] }
+error-chain = "0.12.4"
