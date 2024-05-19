@@ -1,0 +1,11 @@
+[package]
+name = "download-image"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+#will download in temp file 
+tempfile = "3.10.1"
+error-chain = "0.12.4"
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
