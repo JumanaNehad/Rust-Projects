@@ -1,0 +1,1 @@
+/Users/Jumana/Desktop/Rust/Rust-Projects/pass-vault/target/debug/pass-vault: /Users/Jumana/Desktop/Rust/Rust-Projects/pass-vault/src/main.rs /Users/Jumana/Desktop/Rust/Rust-Projects/pass-vault/src/pentry.rs
