@@ -1,0 +1,1 @@
+/Users/Jumana/Desktop/Rust/Rust-Projects/pass-vault-db/target/debug/pass-vault-db: /Users/Jumana/Desktop/Rust/Rust-Projects/pass-vault-db/src/db.rs /Users/Jumana/Desktop/Rust/Rust-Projects/pass-vault-db/src/main.rs
