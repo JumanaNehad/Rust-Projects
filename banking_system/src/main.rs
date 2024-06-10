@@ -2,8 +2,8 @@
 
 trait Account {
     //deposit, withdraw, and balance
-    fn deposit(&mut self, amount: f64);
-    fn withdraw(&mut self, amount: f64);
+    fn deposit(&mut self, amount: f64) -> Result<(), String>;
+    fn withdraw(&mut self, amount: f64) -> Result<(), String>;
     fn balance(&mut self) -> f64; //view
 }
 
@@ -14,16 +14,22 @@ struct BankAccount {
 }
 
 impl Account for BankAccount {
-    fn deposit(&mut self, amount: f64) {
+    fn deposit(&mut self, amount: f64) -> Result<(), String> {
+        if amount < 0.0 {
+            return Err("Deposit amount must be positive".to_string());
+        }
         self.balance += amount;
+        Ok(())
     }
 
-    fn withdraw(&mut self, amount: f64) {
+    fn withdraw(&mut self, amount: f64) -> Result<(), String> {
         if amount <= self.balance {
             self.balance -= amount;
+            return Ok(())
         } else {
-            println!("Insufficient funds!");
+           return Err("Insufficient funds!".to_string());
         }
+        
     }
 
     fn balance(&mut self) -> f64 {
@@ -43,8 +49,14 @@ fn main() {
         balance: 9100.1,
     };
 
-    user1.deposit(22.1);
-    user2.withdraw(900.0);
+    match user1.deposit(22.1){
+        Ok(())=>println!("Deposit successful!"),
+        Err(err)=>println!("Error: {}", err)
+    }
+     match user2.withdraw(900.0){
+        Ok(())=>println!("Withdrawal successful!"),
+        Err(err)=>println!("Error: {}", err)
+     }
 
     println!("Jumana's balance= {}", user1.balance());
     println!("Sarah's balance= {}", user2.balance());
